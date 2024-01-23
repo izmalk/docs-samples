@@ -3,7 +3,8 @@ site:
   start_page: home::quickstart.adoc
 content:
   sources:
-  - url: .
+  - url: https://github.com/izmalk/docs-samples.git
+    start_path: tdb
     branches: HEAD
     
 ui:

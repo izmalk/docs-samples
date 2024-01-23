@@ -2,5 +2,5 @@ name: home
 title: Home
 version: 1.x
 nav:
-- nav.adoc
+- modules/ROOT/nav.adoc
 start_page: home::quickstart.adoc
