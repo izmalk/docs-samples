@@ -8,7 +8,7 @@
 
 This Quickstart guide shows how to set up a TypeDB database and run queries.
 
-include::home::overview.adoc[tag=rust-rewrite]
+//include::home::overview.adoc[tag=rust-rewrite]
 
 == Run TypeDB
 

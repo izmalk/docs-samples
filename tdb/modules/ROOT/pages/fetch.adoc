@@ -6,7 +6,7 @@
 A Fetch query retrieves values from a TypeDB database and returns them as JSON objects.
 
 Fetch queries do not modify data, so can be used in Read or Write transactions.
-In read transactions, Fetch queries can use rule-based xref:typedb::basics/inference.adoc[inference].
+In read transactions, Fetch queries can use rule-based https://typedb.com/docs/typedb/developing/infer[inference].
 
 == Behavior
 
@@ -75,10 +75,10 @@ A `match` clause is mandatory in a Fetch query.
 You can use a declarative and composable TypeQL pattern in a `match` clause and TypeDB will find data that matches
 the pattern.
 
-For more information on a `match` clause, see the xref:data/match.adoc[] page.
+For more information on a `match` clause, see the https://typedb.com/docs/typeql/data/match[Match clause] page.
 
 For more information on patterns used in a `match` clause, see the
-xref:data/match.adoc#_patterns_overview[Patterns overview] section.
+https://typedb.com/docs/typeql/data/match#_patterns_overview[Patterns overview] section.
 
 [#_fetch_clause]
 == Fetch clause
@@ -148,7 +148,7 @@ See the <<_customize_output>> example below.
 === Subqueries
 
 A Fetch query can include a subquery in a `fetch` clause: another Fetch query or a Get query with
-xref:typeql::data/get.adoc#_aggregation[aggregation] (to return a value).
+https://typedb.com/docs/typeql/data/get#_aggregation[aggregation] (to return a value).
 A subquery consists of label, colon, and a TypeQL query string surrounded by curly brackets.
 
 The label determines the key that will be used to introduce results of the subquery into the JSON output.
@@ -193,7 +193,7 @@ Since both persons own the very same attribute,
 it will be returned only once, reducing the total number of results.
 
 For more examples of filtering matched results,
-see the xref:typeql::data/get.adoc#_results_example_2[Get query] page.
+see the https://typedb.com/docs/typeql/data/get#_results_example_2[Get query] page.
 
 [#_modifiers]
 == Modifiers
@@ -406,8 +406,8 @@ Note that instead of `f` we have `file` key and instead of `attribute` -- `all-a
 
 === Using Get queries as subqueries
 
-You can use xref:typeql::data/get.adoc[Get] queries as subqueries as long as you use
-xref:typeql::data/get.adoc#_aggregation[aggregation] to get a value.
+You can use https://typedb.com/docs/typeql/data/get[Get] queries as subqueries as long as you use
+https://typedb.com/docs/typeql/data/get#_aggregation[aggregation] to get a value.
 
 .Example of using a Get subquery
 [,typeql]
@@ -460,7 +460,7 @@ fetch $fp;
 Using the
 https://github.com/vaticle/typedb-docs/blob/master/typedb-src/modules/ROOT/attachments/iam-data.tql[IAM sample data,window=_blank]
 the above query shows any results only if inference is
-xref:typedb::developing/infer.adoc#_how_to_use_inference[enabled].
+https://typedb.com/docs/typedb/developing/infer[enabled].
 
 .Result example with inference enabled
 [,js]
