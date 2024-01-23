@@ -1,4 +1,0 @@
-* xref:home::overview.adoc[Overview]
-* xref:home::install.adoc[]
-* xref:home::quickstart.adoc[]
-* xref:home::25-queries.adoc[]

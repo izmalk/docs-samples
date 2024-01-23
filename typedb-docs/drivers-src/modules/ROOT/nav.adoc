@@ -1,3 +1,0 @@
-// Drivers
-
-include::home::partial$nav-full.adoc[]

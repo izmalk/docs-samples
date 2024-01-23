@@ -1,0 +1,5 @@
+// Home
+* xref:home::quickstart.adoc[]
+* xref:home::25-queries.adoc[]
+* xref:home::fetch.adoc[]
+* xref:home::data-model.adoc[]
